@@ -1,9 +1,11 @@
 import React from "react"
+import { Container } from '../components'
 
-export default function Home() {
+const IndexPage = () => {
   return( 
-    <div style={{ color: `purple` }}>
-      <h1>Hello Gatsby!</h1>
-    </div>
+    <Container>
+      <h1>Hello World!</h1>
+    </Container>
   )
 }
+ export default IndexPage
