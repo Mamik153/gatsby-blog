@@ -30,12 +30,12 @@ export const FooterSocialIcons = styled.div`
     margin-bottom: 2rem;
 
     & img{
-       color: #abc;
         height: 22px;
         padding: 0 1rem;
         transition: filter 0.3s ease;
+        
     }
-
+    
     & img:hover, img:focus{
         filter: brightness(50%);
     }
