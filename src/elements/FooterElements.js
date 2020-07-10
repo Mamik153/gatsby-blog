@@ -29,14 +29,14 @@ export const FooterSocialIcons = styled.div`
     flex: 0 0 100%;
     margin-bottom: 2rem;
 
-    span{
-        color:#abc;
-        font-size: 22px;
+    & img{
+       color: #abc;
+        height: 22px;
         padding: 0 1rem;
         transition: filter 0.3s ease;
     }
 
-    span:hover, span:focus{
+    & img:hover, img:focus{
         filter: brightness(50%);
     }
 `
