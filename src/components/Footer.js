@@ -1,5 +1,5 @@
 import React from 'react'
-import {useStaticQuery, graphql} from 'gatsby'
+//import {useStaticQuery, graphql} from 'gatsby'
 import { FooterWrapper, FooterSocialWrapper, FooterSocialIcons } from '../elements'
 
 export const Footer = () => {
@@ -8,16 +8,16 @@ export const Footer = () => {
         <FooterWrapper>
             <FooterSocialWrapper>
                 <FooterSocialIcons>
-                    <a href='https://facebook.com' target='_blank' rel='noopener noreferer'>
+                    <a href='https://facebook.com' target='_blank' rel='noopener noreferrer'>
                         <span><ion-icon name="logo-facebook"></ion-icon></span>
                     </a>
-                    <a href='https://instagram.com' target='_blank' rel='noopener noreferer'>
+                    <a href='https://instagram.com' target='_blank' rel='noopener noreferrer'>
                         <span><ion-icon name="logo-instagram"></ion-icon></span>
                     </a>
-                    <a href='https://linkedin.com' target='_blank' rel='noopener noreferer'>
+                    <a href='https://linkedin.com' target='_blank' rel='noopener noreferrer'>
                         <span><ion-icon name="logo-linkedin"></ion-icon></span>
                     </a>
-                    <a href='https://twitter.com' target='_blank' rel='noopener noreferer'>
+                    <a href='https://twitter.com' target='_blank' rel='noopener noreferrer'>
                         <span><ion-icon name="logo-twitter"></ion-icon></span>
                     </a>
                 </FooterSocialIcons>
